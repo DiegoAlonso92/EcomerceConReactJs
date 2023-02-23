@@ -1,0 +1,40 @@
+
+
+
+.header {
+    background-color: aquamarine;
+    
+    
+    .header__container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .header__logo {
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+        }
+    
+        
+        .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+
+        .navbar__link {
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            }
+    }
+        
+    }
+}
