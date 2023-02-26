@@ -2,7 +2,7 @@
 
 
 .header {
-    background-color: aquamarine;
+    background-color: rgb(0, 138, 0);
     
     
     .header__container {
@@ -15,9 +15,7 @@
 
 
         .header__logo {
-            color: white;
-            font-size: 40px;
-            font-weight: 700;
+            max-width: 100px;
         }
     
         

@@ -1,6 +1,7 @@
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
 import { Navbar } from "./Components/Navbar/Navbar";
-
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -9,7 +10,11 @@ function App() {
     <div>
       
       <Navbar />
-      <ItemListContainer />
+      <ItemListContainer greeting="Hola mundo" />
+
+      <div className="container">
+<Button>Click me! :)</Button>
+      </div>
 
     </div>
   );
