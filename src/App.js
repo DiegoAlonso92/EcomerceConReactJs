@@ -1,22 +1,23 @@
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "./Components/Navbar/Navbar";
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Nosotros from "./Components/Nosotros/Nosotros";
+import Contacto from "./Components/Contacto/Contacto";
 
 function App() {
 
   return (
-    <div>
-      
-      <Navbar />
-      <ItemListContainer greeting="Hola mundo" />
+    <BrowserRouter>
 
-      <div className="container">
-<Button>Click me! :)</Button>
-      </div>
 
-    </div>
+    <Navbar />
+    <Nosotros/>
+    <Contacto/>
+    <ItemListContainer />
+    
+    </BrowserRouter>
+
   );
 }
 
