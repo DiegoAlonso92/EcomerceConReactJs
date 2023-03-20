@@ -4,41 +4,47 @@
         "name": "Producto 1",
         "description": "información del producto 1",
         "price": 2000,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "congelados"
     },
     {
         "id": 2,
         "name": "Producto 2",
         "description": "información del producto 2",
         "price": 3000,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "suplementos"
     },
     {
         "id": 3,
         "name": "Producto 3",
         "description": "información del producto 3",
         "price": 1500,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "congelados"
     },
     {
         "id": 4,
         "name": "Producto 4",
         "description": "información del producto 4",
         "price": 4000,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "suplementos"
     },
     {
         "id": 5,
         "name": "Producto 5",
         "description": "información del producto 5",
         "price": 2500,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "harinas"
     },
     {
         "id": 6,
         "name": "Producto 6",
         "description": "información del producto 6",
         "price": 1000,
-        "img": "https://via.placeholder.com/220"
+        "img": "https://via.placeholder.com/220",
+        "category": "harinas"
     }
 ]
