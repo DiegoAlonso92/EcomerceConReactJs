@@ -2,6 +2,8 @@ import { useContext, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import ItemCount from "../ItemCount/ItemCount"
+import { Link } from 'react-router-dom'
+import LowStockMsg from "./LowStockMsg"
 
 
 
@@ -25,7 +27,13 @@ const ItemDetail = ({ item }) => {
         agregarAlCarrito(newItem)
     }
 
-
+    if (item.stock === 0) {
+        return (
+            <div>
+                No hay stock de este producto.
+            </div>
+        )
+    }
 
     return (
         <div className="container my-5">
@@ -33,6 +41,7 @@ const ItemDetail = ({ item }) => {
             <img src={item.img} alt={item.name} />
             <p>{item.description}</p>
             <p>Precio: ${item.price}</p>
+            {item.stock <= 5 && <LowStockMsg stock={item.stock} />}
 
             {
                 isInCart(item.id)
@@ -45,7 +54,7 @@ const ItemDetail = ({ item }) => {
                     />
             }
 
-            <br/>
+            <br />
             <button onClick={handleVolver} className="btn btn-primary">Volver</button>
         </div>
     )

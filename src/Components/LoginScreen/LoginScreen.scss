@@ -1,0 +1,15 @@
+.login-screen {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    .login {
+        width: 500px;
+        padding: 26px;
+        border-radius: 10px;
+        background-color: white;
+    }
+}

@@ -1,10 +1,7 @@
-
-
-
 .header {
     background-color: rgb(0, 138, 0);
-    
-    
+
+
     .header__container {
         max-width: 900px;
         margin: 0 auto;
@@ -17,22 +14,30 @@
         .header__logo {
             max-width: 100px;
         }
-    
-        
+
+
         .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
 
 
-        .navbar__link {
-            color: white;
-            font-size: 18px;
-            font-weight: 700;
-            text-decoration: none;
+            .navbar__link {
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                text-decoration: none;
             }
+        }
+
     }
-        
+
+    .login-state {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px 20px;
+color: white;
     }
 }
